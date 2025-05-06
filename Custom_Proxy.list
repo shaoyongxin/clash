@@ -24,3 +24,5 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
 # Sentry
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sentry-cdn.com
+DOMAIN-SUFFIX,getsentry.net
