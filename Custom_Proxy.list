@@ -26,3 +26,10 @@ DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,getsentry.net
+# timble
+DOMAIN-SUFFIX,timble.co.nz
+DOMAIN-SUFFIX,timbletest.com
+IP-CIDR,52.63.239.250/32,no-resolve
+
+# nikki
+DOMAIN-SUFFIX,nikkinikki.pages.dev
