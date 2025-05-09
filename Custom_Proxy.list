@@ -36,3 +36,6 @@ DOMAIN-SUFFIX,nikkinikki.pages.dev
 
 #aws
 DOMAIN-SUFFIX,aws.dev
+
+# dns
+DOMAIN-SUFFIX,ipify.org
