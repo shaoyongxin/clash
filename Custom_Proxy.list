@@ -39,3 +39,6 @@ DOMAIN-SUFFIX,aws.dev
 
 # dns
 DOMAIN-SUFFIX,ipify.org
+
+# gather
+DOMAIN-SUFFIX,gather.com
