@@ -1,31 +1,16 @@
-# NAME: Custom_Proxy
-# AUTHOR: Aethersailor
-# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
-# 强制代理列表，来自个人收集
+# NAME: Custom_Proxy（个人补充）
+# 仅保留个人条目；通用强制代理条目由 Aethersailor 的 Custom_Proxy_Domain / Custom_Proxy_IP 提供，不再重复。
+# 上游：https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Proxy.list
 
-# GooglePlay 相关
-DOMAIN-SUFFIX,services.googleapis.cn
-DOMAIN-SUFFIX,clientservices.googleapis.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-# PS5 STUN
-DOMAIN-SUFFIX,stun.playstation.net
-# Cloudflare DNS
+# Cloudflare DNS（旧版上游条目，上游已移除；客户端直连 1.1.1.1 做 DoH/DoT 时有用，不需要可删）
 IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR,1.0.0.1/32,no-resolve
-# 嵌入式相关
-DOMAIN-SUFFIX,platformio.org
-DOMAIN-SUFFIX,arduino.cc
-# PT 相关
-DOMAIN-SUFFIX,dmhy.org
-# Google 相关
-DOMAIN-SUFFIX,mtalk.google.com
-# EA Desktop 云同步
-DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
-# Sentry
+
+# Sentry（旧版上游条目，上游已移除；开发中使用 Sentry 时保留）
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,getsentry.net
+
 # timble
 DOMAIN-SUFFIX,timble.co.nz
 DOMAIN-SUFFIX,timbletest.com
@@ -34,11 +19,8 @@ IP-CIDR,52.63.239.250/32,no-resolve
 # nikki
 DOMAIN-SUFFIX,nikkinikki.pages.dev
 
-#aws
+# aws
 DOMAIN-SUFFIX,aws.dev
-
-# dns
-DOMAIN-SUFFIX,ipify.org
 
 # gather
 DOMAIN-SUFFIX,gather.town
